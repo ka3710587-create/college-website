@@ -1,8 +1,8 @@
- Basic HTML & CSS Website
+ Basic HTML and CSS  Website
 
 This project is created for learning and practice purposes.
 
-## 📌 About Project
+ About Project
 A simple static website built using HTML and CSS to understand
 basic structure, styling, and layout.
 
