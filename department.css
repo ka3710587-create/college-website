@@ -1,0 +1,131 @@
+:root {
+  --primary: #1976D2;
+  --secondary: #26A69A;
+  --bg: #F5F5F5;
+  --text: #263238;
+  --white: #FFFFFF;
+}
+
+/* ---------- BASIC STYLING ---------- */
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  background-color: var(--bg);
+  color: var(--text);
+}
+
+.container {
+  width: 85%;
+  margin: auto;
+}
+
+/* ---------- HEADER ---------- */
+header {
+  background-color: var(--primary);
+  color: var(--white);
+  text-align: center;
+  padding: 30px 0;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2.2rem;
+}
+
+header p {
+  margin-top: 8px;
+  font-size: 1rem;
+  letter-spacing: 1px;
+}
+
+/* ---------- NAVBAR ---------- */
+nav {
+  background-color: var(--secondary);
+}
+
+nav ul {
+  list-style:none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+nav ul li {
+  margin: 0 20px;
+}
+
+nav ul li a {
+  text-decoration:none;
+  color: var(--white);
+  font-weight: 500;
+  padding: 15px;
+  display: block;
+}
+
+nav ul li a:hover {
+  background-color: var(--primary);
+  border-radius: 5px;
+}
+
+/* ---------- HERO SECTION ---------- */
+.hero {
+  background: linear-gradient(rgba(94, 133, 172, 0.8), rgba(25, 118, 210, 0.8)),
+              url('https://images.unsplash.com/photo-1571260899304-425eee4c7efc?auto=format&fit=crop&w=1350&q=80');
+  background-size: cover;
+  color: var(--white);
+  text-align: center;
+  padding: 100px 20px;
+}
+
+.hero h2 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+.hero p {
+  font-size: 1.1rem;
+  margin-bottom: 20px;
+}
+
+.hero button {
+  background-color: var(--secondary);
+  color: black;
+  border: none;
+  padding: 12px 25px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.hero button a:hover {
+  color:#FFFFFF;
+  background-color:#26A69A;
+}
+/* ----------department cards----------- */
+ .department {
+ background-color:rgb(244, 244, 244);
+  padding: 40px;
+  text-align: center;
+}
+.card{
+    background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  padding: 40px;
+  max-width: 700px;
+  margin: 0 auto;
+}
+.card h3 {
+  color: #1976D2;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.card p {
+  color: #333;
+  line-height: 1.6;
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+

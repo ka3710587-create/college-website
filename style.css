@@ -1,0 +1,159 @@
+
+
+/* ---------- PURAY BODY KA CSS ---------- */
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  background-color: #F5F5F5;
+}
+/* -------------header ka css--------------*/
+.container {
+  width: 85%;
+  margin: auto;
+}
+
+header {
+  background-color:  #1976D2;;
+  color:  #FFFFFF;
+  text-align: center;
+  padding: 30px ;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2.2rem;
+}
+
+header p {
+  margin-top: 8px;
+  font-size: 1rem;
+  letter-spacing: 1px;
+}
+
+/* ---------- NAVBAR ---------- */
+nav {
+  background-color:  #26A69A;
+}
+
+nav ul {
+  list-style:none;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
+
+nav ul li {
+  margin: 0 20px;
+}
+
+nav ul li a {
+  text-decoration:none;
+  color:  #FFFFFF;
+  padding: 15px;
+  display: flex;
+}
+
+nav ul li a:hover {
+  background-color:  #1976D2;;
+  border-radius: 5px;
+}
+
+/* ---------- HERO SECTION ---------- */
+.hero {
+  background: linear-gradient(rgba(94, 133, 172, 0.8), rgba(25, 118, 210, 0.8)),
+              url('https://images.unsplash.com/photo-1571260899304-425eee4c7efc?auto=format&fit=crop&w=1350&q=80');
+  background-size: cover;
+  color: #FFFFFF;
+  text-align: center;
+  padding: 100px 20px;
+}
+
+.hero h2 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}z
+
+.hero p {
+  font-size: 1.1rem;
+  margin-bottom: 20px;
+}
+
+.hero button {
+  background-color:  #26A69A;
+  color: black;
+  border: none;
+  padding: 12px 25px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.hero button a:hover {
+  color:#FFFFFF;
+  background-color: #26A69A;
+}
+
+/* ---------- ABOUT SECTION ---------- */
+.about {
+  background-color:  #FFFFFF;
+  text-align: center;
+  padding: 60px 0;
+}
+
+.about h2 {
+  color:  #1976D2;;
+  margin-bottom: 15px;
+}
+
+.about p {
+  width: 70%;
+  margin: auto;
+  line-height: 1.6;
+}
+
+/* ---------- DEPARTMENTS ---------- */
+.departments {
+  background-color: #F5F5F5;;
+  text-align: center;
+  padding: 60px 0;
+}
+
+.departments h2 {
+  color:  #1976D2;
+  margin-bottom: 40px;
+}
+/* teacher section*/
+.teachers{
+  background-color:rgb(220, 220, 220);
+}
+.container h2{
+  text-align: center;
+  font-size: 2rem;
+  padding:20px;
+  color: #1976D2;
+}
+.cards {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 25px;
+}
+.card {
+  background-color:  #FFFFFF;
+  border-radius: 10px;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
+  width: 280px;
+  padding: 25px;
+  transition: transform 0.2s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+.card h3 {
+  color:  #26A69A;
+  margin-bottom: 10px;
+}
+
+
+
